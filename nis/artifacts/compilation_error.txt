@@ -1,0 +1,15 @@
+#22 49.08 [ERROR] COMPILATION ERROR : 
+#22 49.08 [INFO] -------------------------------------------------------------
+#22 49.08 [ERROR] /alea/client/src/main/java/pt/ulisboa/tecnico/client/domain/Client.java:[126,9] cannot find symbol
+#22 49.08   symbol:   variable confirmed
+#22 49.08   location: class pt.ulisboa.tecnico.client.domain.Client
+#22 49.08 [ERROR] /alea/client/src/main/java/pt/ulisboa/tecnico/client/domain/Client.java:[315,9] cannot find symbol
+#22 49.08   symbol:   variable confirmed
+#22 49.08   location: class pt.ulisboa.tecnico.client.domain.Client
+#22 49.08 [ERROR] /alea/client/src/main/java/pt/ulisboa/tecnico/client/domain/Client.java:[346,23] cannot find symbol
+#22 49.08   symbol:   variable confirmed
+#22 49.08   location: class pt.ulisboa.tecnico.client.domain.Client
+#22 49.08 [ERROR] /alea/client/src/main/java/pt/ulisboa/tecnico/client/domain/Client.java:[346,34] cannot find symbol
+#22 49.08   symbol:   variable confirmed
+#22 49.08   location: class pt.ulisboa.tecnico.client.domain.Client
+#22 49.08 [INFO] 4 errors 
