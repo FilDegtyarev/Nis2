@@ -15,15 +15,19 @@
 ```bash
 mkdir external && cd external
 
-curl -fL https://codeload.github.com/diogoantunes25/AleaBFT/tar.gz/543786ef199a \
-  -o source.tar.gz
+curl -fL https://codeload.github.com/diogoantunes25/AleaBFT/tar.gz/543786ef199a -o source.tar.gz
 
 tar -xzf source.tar.gz && cd AleaBFT-543786ef199a
 ```
 
 Далее нужно исправить ошибку сборки у скачанного проекта, подробнее описано в [01.md](nis/checkpoints/01.md)
 
-После чего нужно собрать проект и запустить тестовый прогон. Код для этих действий указан в [build.sh](src/build.sh) и в [simple.py](src/simple.py) соответственно, содержание описано в [01.md](nis/checkpoints/01.md)
+После чего нужно перейти к корню репозитория и собрать проект и запустить тестовый прогон. Код для этих действий указан в [build.sh](src/build.sh) и в [simple.py](src/simple.py) соответственно, содержание описано в [01.md](nis/checkpoints/01.md)
+
+И выполняется командами соответственно:
+```bash
+cd src && chmod +x build.sh && ./build.sh && python3 simple.py
+```
 
 ## Навигация
 
