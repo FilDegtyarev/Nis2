@@ -1,0 +1,4 @@
+replica0: accepted=3 delivered=3
+replica1: accepted=3 delivered=3
+replica2: accepted=3 delivered=3
+replica3: accepted=2 delivered=2
