@@ -9,17 +9,16 @@
 - Эйбатов Эмиль
 
 ## Сокращённый запуск
+На данный момент возможна ручная установка:
 Для начала в корне репозитория нужно скачать внешний репозиторий(содержащий alea-bft) с помощью: 
 
 ```bash
 mkdir external && cd external
 
-curl -fL \
-  https://codeload.github.com/diogoantunes25/AleaBFT/tar.gz/543786ef199a \
+curl -fL https://codeload.github.com/diogoantunes25/AleaBFT/tar.gz/543786ef199a \
   -o source.tar.gz
 
-tar -xzf source.tar.gz
-cd AleaBFT-543786ef199a
+tar -xzf source.tar.gz && cd AleaBFT-543786ef199a
 ```
 
 Далее нужно исправить ошибку сборки у скачанного проекта, подробнее описано в [01.md](nis/checkpoints/01.md)
